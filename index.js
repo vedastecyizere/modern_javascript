@@ -1,1 +1,3 @@
-console.log(moment("20111031", "YYYYMMDD").fromNow());
+var moment = require("moment");
+console.log(moment().startOf('hour').fromNow());
+console.log(datetime);
