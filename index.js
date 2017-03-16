@@ -1,1 +1,1 @@
-console.log("hello again!");
+console.log(moment("20111031", "YYYYMMDD").fromNow());
