@@ -14985,8 +14985,19 @@ module.exports = function(module) {
 /* 111 */
 /***/ (function(module, exports, __webpack_require__) {
 
+"use strict";
+
+
 var moment = __webpack_require__(0);
-console.log(moment("20111031", "YYYYMMDD").fromNow());
+var datetime = moment().startOf('hour').fromNow();
+console.log(datetime);
+
+function test() {
+  var x = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 34;
+
+  console.log(x);
+}
+test();
 
 /***/ })
 /******/ ]);
